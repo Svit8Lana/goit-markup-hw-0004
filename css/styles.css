@@ -28,6 +28,7 @@ webstudio зверху  color: #2196F3;color: #000000;
     --accent-color-button: #188CE8;
     --accent-color-but: #F5F4FA;
     --accent-color-section-fon: #F5F5F5;
+    --accent-color-icon: #AFB1B8;
 } 
 
 body {
@@ -272,16 +273,38 @@ padding-top: 30px;
         justify-content: center;
 }
 
-/* .container-background {
-background-color: var(--accent-color-but);
-} */
 
 .fon {
     background-color: var(--accent-color-title);
-    /* width: 270px;
-    height: 368px; 
-    top: 1632px; */
     border-radius: 0px 0px 4px 4px;
+}
+
+
+/* Socials */
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* color: #AFB1B8; */
+}
+
+.socials-link {
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+}
+
+.socials-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+fill: var(--accent-color-icon);
+}
+
+.socials-link:hover .socials-icon, 
+.socials-link:focus .socials-icon{
+    fill: #2196F3;
 }
 
 
