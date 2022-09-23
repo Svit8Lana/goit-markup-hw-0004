@@ -189,6 +189,18 @@ button {
     gap: 30px;
 }
 
+.icons-svg {
+    background-color: aquamarine;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+        gap: 30px;
+
+}
+.antenna {
+    display: flex;
+    /* justify-content: center; */
+}
 
 /* section 3*/
 
