@@ -191,7 +191,6 @@ button {
 
 .icons-svg {
     background-color: aquamarine;
-    align-items: center;
     justify-content: center;
     width: 270px;
     height: 120px;
@@ -302,7 +301,7 @@ padding-top: 30px;
 .socials {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
     /* color: #AFB1B8; */
 }
 
@@ -323,25 +322,6 @@ fill: var(--accent-color-icon);
 .socials-link:focus .socials-icon{
     fill: #2196F3;
 }
-
-/* Секція 5 */
-
-.client {
-    background-color: aquamarine;
-        align-items: center;
-        justify-content: center;
-        width: 170px;
-        height: 92px;
-        gap: 30px;
-       
-}
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 106px;
-    height: 60px;
-}
-
 
 
 /* Підвал сторінки */
