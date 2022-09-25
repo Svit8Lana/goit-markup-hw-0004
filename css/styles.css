@@ -123,6 +123,7 @@ ul {    list-style: none;}
 
 .link-icon {
     fill: var(--paragraph-color);
+    margin-right: 10px;
 }
 
 /* Секція 1  */
@@ -138,9 +139,10 @@ max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    outline: 4px solid red;
-background-image: url(../images/hero/Img\ Overlay.png),
- url(../images/hero/Img\ \(1\).jpg);
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
+rgba(47, 48, 58, 0.4)),
+ url(../images/hero/Img1.jpg);
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,23 +201,22 @@ button {
     gap: 30px;
 }
 
+.corobka {
+    flex-basis: calc((100% - 90px)/4);
+}
+
 .icons-svg {
     background-color: var(--accent-color-but);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+   
     height: 120px;
         gap: 30px;
         margin-bottom: 30px;
 
 }
 
-.antenna {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .icons-svg:hover, .icons-svg:focus, 
 .antenna:hover, .antenna:focus {
@@ -262,12 +263,15 @@ button {
 
 .card-index {
 padding-top: 30px;
-    padding-bottom: 30px;
-    border-left-width: 4px;
-        border-bottom-width: 4px;
-        border-right-width: 0px;
+padding-bottom: 30px;
+border-left-width: 4px;
+border-bottom-width: 4px;
+border-right-width: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
+  
 .tit { 
     color: var(--title-text-color);
     font-weight: 500;
@@ -319,7 +323,7 @@ padding-top: 30px;
     justify-content: center;
     gap: 10px;
     margin-top: 16px;
-        margin-bottom: 30px;
+       
     /* color: #AFB1B8; */
 }
 
@@ -342,7 +346,9 @@ fill: var(--accent-color-icon);
 
 .socials-link:hover .socials-icon, 
 .socials-link:focus .socials-icon{
-    fill: #2196F3;
+    background-color: var(--accent-color-web);
+    fill: var(--accent-color-title);
+    /* border-radius: 50%; */
 }
 
 /* Секція 5 */
@@ -350,17 +356,17 @@ fill: var(--accent-color-icon);
 .customers {
     display: flex;
     gap: 30px;
-    justify-content: center;
+}
 
+.regular-customers {
+    flex-basis: calc((100%-150px)/6);
 }
 
 .customers-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
     height: 92px;
-
     border-radius: 4%;
     border: 1px solid var(--accent-color-icon);
 }
@@ -372,12 +378,6 @@ fill: var(--accent-color-icon);
 
 .customers-link:hover,
 .customers-link:focus {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 170px;
-    height: 92px;
     fill: var(--accent-color-hover-icon);
     border: 1px solid var(--accent-color-hover-icon);
 }
@@ -387,8 +387,11 @@ fill: var(--accent-color-icon);
 .futer { background-color: var(--accent-color-hero);
 padding-top: 60px;
 padding-bottom: 60px;
+}
+
+.basement {
 display: flex;
-    gap: 10px;
+    gap: 70px;
     justify-content: left;
 }
 
@@ -476,13 +479,13 @@ margin-left: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-accent-primary-icon);
+    background-color: var(--accent-color-hover-icon);
     border-radius: 50%;
 }
 
 .join-link:hover .join-icon,
 .join-link:focus .join-icon {
-    fill: var(--accent-color-hover-icon);
+    fill: var(--accent-color-title);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -519,6 +522,7 @@ margin-left: 100px;
 .but:focus {
     color: var(--accent-color-title);
     background-color: var(--accent-color-web);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .container-butto {
@@ -575,8 +579,7 @@ padding-bottom: 94px;
         padding-bottom: 20px;
         border-left: 1px solid #EEEEEE;;
         border-bottom: 1px solid #EEEEEE;;
-        border-right: 1px solid #EEEEEE;;
-        
+        border-right: 1px solid #EEEEEE;;     
 }
 
 .item:hover, .item:focus {
