@@ -205,6 +205,10 @@ button {
     flex-basis: calc((100% - 90px)/4);
 }
 
+.antenna {
+    height: 70px;
+}
+
 .icons-svg {
     background-color: var(--accent-color-but);
     display: flex;
@@ -345,17 +349,18 @@ justify-content: center; */
 fill: var(--accent-color-icon);
 }
 
-.socials-link:hover 
+.socials-link:hover, 
 .socials-link:focus {
+    background-color: var(--accent-color-web);
     /* display: flex;
         align-items: center;
         justify-content: center; */
-border-radius: 50%;
+
 }
 
 .socials-link:hover .socials-icon, 
 .socials-link:focus .socials-icon{
-    background-color: var(--accent-color-web);
+    
     fill: var(--accent-color-title);
     /* display: flex;
         align-items: center;
@@ -560,6 +565,13 @@ element.style {
 
 .link-nav {
 text-decoration: none;
+display: block;
+
+}
+
+.link-nav:hover,
+.link-nav:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .title-h2 {
@@ -594,9 +606,9 @@ padding-bottom: 94px;
         border-right: 1px solid #EEEEEE;;     
 }
 
-.item:hover, .item:focus {
+/* .item:hover, .item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* 
  Встановить стилі правої рамки
