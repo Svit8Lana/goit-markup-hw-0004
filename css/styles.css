@@ -343,29 +343,17 @@ border-right-width: 0px;
 }
 
 .socials-icon {
-/* display: flex;
-align-items: center;
-justify-content: center; */
 fill: var(--accent-color-icon);
 }
 
 .socials-link:hover, 
 .socials-link:focus {
     background-color: var(--accent-color-web);
-    /* display: flex;
-        align-items: center;
-        justify-content: center; */
-
 }
 
 .socials-link:hover .socials-icon, 
 .socials-link:focus .socials-icon{
-    
     fill: var(--accent-color-title);
-    /* display: flex;
-        align-items: center;
-        justify-content: center; */
-  
 }
 
 /* Секція 5 */
@@ -529,7 +517,6 @@ margin-left: 100px;
     cursor: pointer;
     font-family: inherit;
     border-radius: 4px;
-        /* border-color: var(--accent-color-but); */
  width: 103px;
  height: 38px;
  
@@ -629,9 +616,9 @@ padding-bottom: 94px;
 
 
 
-.img {
+/* .img {
 background-size: contain
-}
+} */
 
 
 
