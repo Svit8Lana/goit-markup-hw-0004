@@ -13,6 +13,7 @@ webstudio зверху  color: #2196F3;color: #000000;
 *::before,
 *::after {
     box-sizing: border-box;} */
+/* animations */
 
 :root {
     --primary-text-color: #212121;
